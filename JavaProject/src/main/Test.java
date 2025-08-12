@@ -8,6 +8,7 @@ public class Test {
 	public static void main(String[] args) {
 		TeamService service=new TeamService();
         service.printTeamdetails();
+        System.out.println("test github");
 	}
 
 }
