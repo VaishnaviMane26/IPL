@@ -8,7 +8,17 @@ public class Team {
 	private String coachName;
 	private float nRR;
 	private boolean isQualified;
+	private String shortName;
 	
+	
+	
+
+	@Override
+	public String toString() {
+		return "Team [id=" + id + ", teamName=" + teamName + ", captainName=" + captainName + ", coachName=" + coachName
+				+ ", nRR=" + nRR + ", isQualified=" + isQualified + ", shortName=" + shortName + "]";
+	}
+
 	//setter and getter apply
 	public int getId() {
 		return id;
@@ -58,6 +68,12 @@ public class Team {
 		this.isQualified = isQualified;
 	}
 	
-	
+	public String getShortName() {
+		return shortName;
+	}
+
+	public void setShortName(String shortName) {
+		this.shortName = shortName;
+	}
 	
 }
